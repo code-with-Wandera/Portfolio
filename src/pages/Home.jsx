@@ -1,6 +1,6 @@
 
 import Navbar from "../components/navbar/navbar";
-import Collins from "../assets/icons/Collins.png";
+import Collins from "../assets/icons/collins.png";
 //import About from "../pages/About"
 function Home(){
 
