@@ -1,0 +1,325 @@
+*{
+  background-color: hsl(0, 5%, 37%);
+}
+.profile{
+  width: 500px;
+  height: 65vh;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 50px;
+  animation: animate 1.5s ease-in-out infinite;
+
+}
+ 
+.home-bar{
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex: 1;
+}
+
+.des1{
+  display: block;
+  margin-top: 0;
+}
+
+.Des2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 100px;
+  text-overflow: ellipsis;
+  text-size-adjust: 100px;
+
+}
+
+
+.home-name{
+  color: orangered;
+}
+
+/*Styling About Section*/
+#about{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: whitesmoke
+}
+
+
+/*Styling the card component*/
+
+.card{
+  border: 1px solid (0, 0, 80%);
+  border-radius: 10px;
+  box-shadow: 5px, 5px, 5px (0, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+  
+
+}
+
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.Card1{
+  display: flex;
+  padding: 30px;
+  margin: 30px;
+  gap: 100px;
+  flex: 1;
+  flex-shrink: 1;
+  border-radius: 50px;
+  background-color: hsl(0, 20%, 0%);
+  
+}
+.profile2{
+  display: inline;
+  align-items: flex-end;
+  border-radius: 250px;
+  height: auto;
+  width: 400px;
+  border: 2px solid maroon;
+}
+
+
+.Card1-text{
+padding: 30px;
+margin: 30px;
+color: beige;
+font-size: 18px;
+font-weight: 40px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+line-height: 25px;
+border-radius: 50px;
+border: 2px solid maroon;
+width: 300px;
+height: 325px;
+}
+
+.About1{
+  color: beige;
+  padding: 40px;
+}
+
+.name2{
+  color: orangered ;
+}
+
+/* Styling services page */
+.container{
+  display:inline-grid; /*it helps the content not to overflow, the items within the grid will be able to fit the space provided*/
+  grid-template: 500px 500px 500px 500px;
+  grid: 1;
+  border: 2px solid maroon;
+  color: rgb(189, 189, 181);
+  font-size: 18px;
+
+
+}
+
+.Service1{
+ padding: 30px;
+ margin: 20px;
+ border: 2px solid maroon;
+}
+
+.Service2, .Service3, .Service4, .Service5{
+  padding: 10px;
+ margin: 5px;
+ border: 2px solid maroon;
+}
+
+.Grid1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /*creating two columns with a height of 50px each*/
+  grid-template-rows: 310px 310px; /*creating two rowas with a height of 50px each*/
+  margin: 10px;
+  gap: 10px 10px; /*short hand property for row gap and column gap*/
+  
+}
+
+.Container1{
+  display:inline-grid; /*it helps the content not to overflow, the items within the grid will be able to fit the space provided*/
+  grid-template: 500px 500px 500px 500px;
+  grid: 1;
+  border: 2px solid maroon;
+  color: rgb(189, 189, 181);
+  font-size: 16px;
+}
+
+.Pro1, .Pro2, .Pro3, .Pro4{
+  padding: 0px;
+ margin: 10px;
+ border: 2px solid maroon;
+}
+
+.Container2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /*creating two columns with a height of 50px each*/
+  grid-template-rows: 440px 400px; /*creating two rowas with a height of 50px each*/
+  margin: 10px;
+  gap: 10px 10px; /*short hand property for row gap and column gap*/
+  
+}
+
+.lms1, .sms1, .rms1, .lipia{
+  width: 300px;
+  height: auto;
+}
+/* Designing icons */
+.Icon1, .Icon2, .Icon3, .Icon4{
+  width: 60px;
+  height: auto;
+}
+
+/* Designing Contact page */
+.call, .email, .whatsapp, .linked, .git{
+  width: 40px;
+  height: auto;
+}
+.whatsapp, .linked, .git{
+  padding: 8px;
+  margin: 2px;
+}
+
+#contact{
+  padding: 23px;
+  margin: auto;
+}
+
+
+.social-icons{
+  display: grid;
+  margin: 0px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+.btn-btn2{
+  padding: 0px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 10px;
+  background-color: rgb(189, 119, 93);
+  color: beige;
+  width: 150px;
+    
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #4b4848;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form .btn-btn2 {
+  padding: 10px 40px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-left,
+.social-icons > a {
+  margin-top: 30px;
+}
+
+.contact-left a {
+  margin-right: 15px;
+  font-size: 18px;
+}
+.container-social{
+  display: inline-flex;
+  padding: 0px;
+  margin: 10px;
+  gap: 120px;
+
+}
+
+.media1, .media2{
+  display:block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Intro{
+  color: rgb(228, 215, 199);
+  font-size: 20px;
+}
+
+#msg {
+  color: #61b752;
+  margin-top: -40px;
+  display: block;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  font-weight: 300;
+  margin-top: 20px;
+}
+h3, h2{
+  color: black;
+}
+.Hire-button{
+  padding: 5px 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(189, 119, 93);
+  border-radius: 10pxn;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
